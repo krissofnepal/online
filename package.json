@@ -1,0 +1,17 @@
+{
+  "name": "mediahandler",
+  "version": "1.0.0",
+  "description": "Facebook Page automation via Composio MCP + Claude Code",
+  "type": "module",
+  "scripts": {
+    "generate-mcp-url": "tsx generate_mcp_url.ts"
+  },
+  "dependencies": {
+    "@composio/core": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
